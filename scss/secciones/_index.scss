@@ -1,0 +1,20 @@
+
+main {
+    background: black;
+    h1 {
+        color: salmon;
+    }
+    div {
+        color: white;
+        a{
+            color: white;
+            font-size: 30px;
+            padding: 10px;
+            // text-align: center;
+            background: blue;
+            &:hover {
+                background: blueviolet;
+            }
+        }
+    }
+}

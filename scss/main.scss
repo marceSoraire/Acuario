@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//importaciones se deben llamar desde el principal
+//para incluir se debe hacer lo siguiente
+
+@import './utilidades/colores.scss';
+@import'./header-footer/header';
+@import'./secciones/index';
+@import'./secciones/blog';
+@import'./header-footer/footer'
