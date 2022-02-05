@@ -7,8 +7,10 @@
 //importaciones se deben llamar desde el principal
 //para incluir se debe hacer lo siguiente
 
-@import './utilidades/colores.scss';
-@import'./header-footer/header';
-@import'./secciones/index';
-@import'./secciones/blog';
-@import'./header-footer/footer'
+/* UTILIDADES */
+@import './utilidades/colores';
+@import './utilidades/tamanio';
+
+/* SECCIONES */
+@import './secciones/index';
+

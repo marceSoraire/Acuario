@@ -1,20 +1,70 @@
-
-main {
-    background: black;
-    h1 {
-        color: salmon;
-    }
-    div {
-        color: white;
-        a{
-            color: white;
-            font-size: 30px;
-            padding: 10px;
-            // text-align: center;
-            background: blue;
+.headerIndex {
+    background: $azul;
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .comp {
+            display: flex;
+        }
+        .logo {
+            margin: 20px 50px;
+            width: 12wh;
+            height: 12vh;
+            border-radius: 50%;
+            border: 2px solid black;
+        }
+        h2 {
+            margin-top: 2rem;
+            color: $blanco;
+            font-size: $grande;
+            font-family:Georgia, 'Times New Roman', Times, serif;
             &:hover {
-                background: blueviolet;
+                color: $gris;
             }
         }
+        .listaLinks {
+            display: flex;
+            margin: 0px 50px;
+            padding: 20px;
+            color: $blanco;
+            li {
+                font-size: $chico;
+                list-style: none;
+                padding: 20px;
+                &:hover {
+                    color: $gris;    
+                }
+            }
+        }
+    }
+}
+
+main {
+    .imgPrincipal {
+        margin: 25px auto;
+        justify-content: center;
+        text-align: center;
+        width: 75%;
+        height: 70vh;
+        border: 1px double $negro;
+        border-radius: 2%;
+    }
+    .text {
+        color: $dark;
+        font-size: $chico;
+        padding: 50px;       
+        margin: 1rem;
+        background: $gris;
+    }
+    .principal {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 3rem;
+        .colors {
+            background: $dark;
+            color: $blanco;
+        }  
     }
 }

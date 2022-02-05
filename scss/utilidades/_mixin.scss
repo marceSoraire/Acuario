@@ -1,0 +1,15 @@
+@mixin contenedor {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: $naranaj;
+}
+
+@mixin FontStyle($amarillo, $tamanioLetra, $negro) {
+    color:$amarillo;
+    background-color: $tamanioLetra;
+    font-size: 1.5rem;
+    &:hover{
+        background-color: $negro;
+    }
+}

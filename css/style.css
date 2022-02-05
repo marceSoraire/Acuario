@@ -3,31 +3,62 @@
   padding: 0;
   box-sizing: border-box; }
 
-.nav {
-  background-color: #143b7a; }
-  .nav .listaLinks li {
-    color: green;
-    font-size: 50px; }
-
-main {
-  background: black; }
-  main h1 {
-    color: salmon; }
-  main div {
-    color: white; }
-    main div a {
+/* UTILIDADES */
+/* SECCIONES */
+.headerIndex {
+  background: #315fa8; }
+  .headerIndex nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .headerIndex nav .comp {
+      display: flex; }
+    .headerIndex nav .logo {
+      margin: 20px 50px;
+      width: 12wh;
+      height: 12vh;
+      border-radius: 50%;
+      border: 2px solid black; }
+    .headerIndex nav h2 {
+      margin-top: 2rem;
       color: white;
-      font-size: 30px;
-      padding: 10px;
-      background: blue; }
-      main div a:hover {
-        background: blueviolet; }
+      font-size: 36px;
+      font-family: Georgia, 'Times New Roman', Times, serif; }
+      .headerIndex nav h2:hover {
+        color: #dfdada; }
+    .headerIndex nav .listaLinks {
+      display: flex;
+      margin: 0px 50px;
+      padding: 20px;
+      color: white; }
+      .headerIndex nav .listaLinks li {
+        font-size: 22px;
+        list-style: none;
+        padding: 20px; }
+        .headerIndex nav .listaLinks li:hover {
+          color: #dfdada; }
 
-#mainBlog {
-  color: brown;
-  background: cadetblue; }
+main .imgPrincipal {
+  margin: 25px auto;
+  justify-content: center;
+  text-align: center;
+  width: 75%;
+  height: 70vh;
+  border: 1px double black;
+  border-radius: 2%; }
 
-footer {
-  width: 100%;
-  background: chocolate;
-  height: 60vh; }
+main .text {
+  color: #18202d;
+  font-size: 22px;
+  padding: 50px;
+  margin: 1rem;
+  background: #dfdada; }
+
+main .principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 3rem; }
+  main .principal .colors {
+    background: #18202d;
+    color: white; }
