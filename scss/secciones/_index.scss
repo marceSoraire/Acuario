@@ -1,61 +1,54 @@
-.headerIndex {
+.header {
     background: $azul;
-    nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        .comp {
-            display: flex;
-        }
-        .logo {
-            margin: 20px 50px;
-            width: 12wh;
-            height: 12vh;
-            border-radius: 50%;
-            border: 2px solid black;
-        }
-        h2 {
-            margin-top: 2rem;
-            color: $blanco;
-            font-size: $grande;
-            font-family:Georgia, 'Times New Roman', Times, serif;
-            &:hover {
-                color: $gris;
-            }
-        }
-        .listaLinks {
-            display: flex;
-            margin: 0px 50px;
-            padding: 20px;
-            color: $blanco;
-            li {
-                font-size: $chico;
-                list-style: none;
-                padding: 20px;
-                &:hover {
-                    color: $gris;    
-                }
-            }
+    border-bottom: 2px solid $dark;
+    .logo {
+        margin: 20px 50px;
+        width: 12wh;
+        height: 12vh;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+    .name {
+        color: $blanco !important;
+        font-size: $grande;
+        &:hover {
+            color: $gris !important;
         }
     }
+    .nav-div {
+        color: $blanco !important;
+        font-size: $md;
+        margin: 0 20px;
+        &:hover {
+            color: $gris !important;
+        }
+        
+    }
+}
+.img-min {
+    width: 3wh;
+    height: 3vh;
+}
+.wsp {
+    font-size: $wm;
+    color: green;
 }
 
 main {
     .imgPrincipal {
-        margin: 25px auto;
+        margin: 0px auto;
         justify-content: center;
         text-align: center;
-        width: 75%;
-        height: 70vh;
-        border: 1px double $negro;
-        border-radius: 2%;
+        width: 100%;
+        height: 80vh;
+        border-bottom: 2px solid $dark;
     }
     .text {
         color: $dark;
         font-size: $chico;
         padding: 50px;       
-        margin: 1rem;
-        background: $gris;
+        margin: 1rem 10rem;
+        border: 1px solid $gris;
     }
     .principal {
         display: flex;
@@ -63,8 +56,29 @@ main {
         justify-content: space-evenly;
         margin: 3rem;
         .colors {
-            background: $dark;
-            color: $blanco;
+            background: none;
+            border: 1px solid $gris;
+            color: $dark;
         }  
+    }
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30vh;
+    background: $footer;
+    .creditos {
+    width: 6wh;
+    height: 6vh;
+    margin: 0px 15px;
+    border-radius: 3%;
+    }
+    .dato {
+        color: $blanco;
+        &:hover {
+            color: $gris;
+        }
     }
 }
