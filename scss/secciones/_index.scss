@@ -1,8 +1,10 @@
 .header {
     background: $azul;
+    align-items: center;
+    justify-content: space-between;
     border-bottom: 2px solid $dark;
     .logo {
-        margin: 20px 50px;
+        margin: 10px 50px;
         width: 12wh;
         height: 12vh;
         border-radius: 50%;
@@ -26,6 +28,14 @@
             color: $gris !important;
         }
         
+    }
+    .carro {
+        background: none;
+        border: none;
+        color: $dark;
+        padding: 3px;
+        width: 7wh;
+        height: 7vh;
     }
 }
 .img-min {
