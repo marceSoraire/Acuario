@@ -1,15 +1,17 @@
+// mixin Sencillo
 @mixin contenedor {
-    max-width: 600px;
-    text-align: center;
-    margin: 0 auto;
-    background-color: $naranaj;
+    background: none;
+    border: none;
+    color: $dark;
+    width: 8wh;
+    height: 8vh;
 }
-
-@mixin FontStyle($amarillo, $tamanioLetra, $negro) {
-    color:$amarillo;
-    background-color: $tamanioLetra;
-    font-size: 1.5rem;
+/* mixin like a pro */
+@mixin FontStyle($verde, $tamanioLetra, $dark) {
+    color:$verde;
+    font-size: $tamanioLetra;
     &:hover{
-        background-color: $negro;
+        color: $dark;
     }
 }
+

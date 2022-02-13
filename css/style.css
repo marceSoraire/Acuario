@@ -4,6 +4,17 @@
   box-sizing: border-box; }
 
 /* UTILIDADES */
+main .text {
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-size: 1.2rem; }
+
+main .principal .colors h5 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase; }
+
+/* mixin like a pro */
 /* SECCIONES */
 .header {
   background: #315fa8;
@@ -11,7 +22,7 @@
   justify-content: space-between;
   border-bottom: 2px solid #18202d; }
   .header .logo {
-    margin: 10px 50px;
+    margin: 10px 4rem;
     width: 12wh;
     height: 12vh;
     border-radius: 50%;
@@ -42,8 +53,10 @@
   height: 3vh; }
 
 .wsp {
-  font-size: 80px;
-  color: green; }
+  color: green;
+  font-size: 80px; }
+  .wsp:hover {
+    color: #18202d; }
 
 main .imgPrincipal {
   margin: 0px auto;
@@ -55,7 +68,6 @@ main .imgPrincipal {
 
 main .text {
   color: #18202d;
-  font-size: 22px;
   padding: 50px;
   margin: 1rem 10rem;
   border: 1px solid #dfdada; }
@@ -119,8 +131,10 @@ footer {
     width: 3wh;
     height: 3vh; }
   .wsp {
-    font-size: 80px;
-    color: green; }
+    color: green;
+    font-size: 80px; }
+    .wsp:hover {
+      color: #18202d; }
   main .imgPrincipal {
     margin: 0px auto;
     justify-content: center;
@@ -133,7 +147,7 @@ footer {
     color: #18202d;
     font-size: 22px;
     padding: 20px;
-    margin: 1rem 6rem;
+    margin: 0px 6rem;
     height: 30vh;
     border: 1px solid #dfdada; }
   main .principal {
@@ -155,8 +169,10 @@ footer {
 /****** 425 ********/
 @media (max-width: 425px) {
   .wsp {
-    font-size: 50px;
-    color: green; }
+    color: green;
+    font-size: 50px; }
+    .wsp:hover {
+      color: #18202d; }
   footer {
     display: inline-block;
     text-align: center;
@@ -208,6 +224,11 @@ footer {
       margin: 0 20px; }
       .header .nav-div:hover {
         color: #dfdada !important; }
+  .wsp {
+    color: green;
+    font-size: 50px; }
+    .wsp:hover {
+      color: #18202d; }
   main .text {
     overflow: scroll;
     color: #18202d;
@@ -216,3 +237,25 @@ footer {
     margin: 1rem 1rem;
     height: 30vh;
     border: 1px solid #dfdada; } }
+
+/****** Alimentos ********/
+.principal .div-al {
+  display: flex; }
+  .principal .div-al .carr-al {
+    background: none;
+    border: none;
+    color: #18202d;
+    width: 8wh;
+    height: 8vh; }
+
+/******* peces ********/
+.separacion {
+  margin: 1rem 6rem; }
+  .separacion .img-full {
+    height: 100vh !important; }
+  .separacion .sep-in {
+    padding: 1rem; }
+
+.card-texto {
+  width: 80% !important;
+  height: 350px !important; }
