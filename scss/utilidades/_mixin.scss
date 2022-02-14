@@ -1,5 +1,8 @@
 // mixin Sencillo
 @mixin contenedor {
+    margin-top: -10px;
+    margin-right: 5px;
+    float: right;
     background: none;
     border: none;
     color: $dark;

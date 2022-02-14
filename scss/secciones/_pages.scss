@@ -11,16 +11,23 @@
 
 /******* peces ********/
 .separacion {
-    margin: 1rem 6rem;
+    margin: 1rem 7rem;
+    .card-title {
+        @include titulo;
+    }
     .img-full {
-        height: 100vh !important;
+        height: 70vh !important;
     }
     .sep-in {
         padding: 1rem;
+        .card-title {
+            @include titulo;
+        }
+    }
+    .carr-al {
+        @include contenedor;
     }
 }
-
-.card-texto {
-    width: 80% !important;
-    height: 350px !important;
+.card-text {
+    padding: 0px 2rem;
 }

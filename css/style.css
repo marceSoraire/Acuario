@@ -251,6 +251,9 @@ footer {
 .principal .div-al {
   display: flex; }
   .principal .div-al .carr-al {
+    margin-top: -10px;
+    margin-right: 5px;
+    float: right;
     background: none;
     border: none;
     color: #18202d;
@@ -259,12 +262,36 @@ footer {
 
 /******* peces ********/
 .separacion {
-  margin: 1rem 6rem; }
+  margin: 1rem 7rem; }
+  .separacion .card-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    margin-top: 0px;
+    padding: 0px;
+    color: #18202d; }
   .separacion .img-full {
-    height: 100vh !important; }
+    height: 70vh !important; }
   .separacion .sep-in {
     padding: 1rem; }
+    .separacion .sep-in .card-title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+      margin-top: 0px;
+      padding: 0px;
+      color: #18202d; }
+  .separacion .carr-al {
+    margin-top: -10px;
+    margin-right: 5px;
+    float: right;
+    background: none;
+    border: none;
+    color: #18202d;
+    width: 8wh;
+    height: 8vh; }
 
-.card-texto {
-  width: 80% !important;
-  height: 350px !important; }
+.card-text {
+  padding: 0px 2rem; }
