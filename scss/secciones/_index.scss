@@ -56,6 +56,9 @@ main {
         border-bottom: 2px solid $dark;
     }
     .text {
+        .titulo {
+            @include titulo;
+        }
         @extend %estilosParrafos;
         color: $dark;
         padding: 50px;       
@@ -85,16 +88,21 @@ footer {
     justify-content: space-evenly;
     height: 30vh;
     background: $footer;
-    .creditos {
-    width: 6wh;
-    height: 6vh;
-    margin: 0px 15px;
-    border-radius: 3%;
+    .date {
+        .dato {
+            color: $blanco;
+            &:hover {
+                color: $gris;
+            }
+        }
     }
-    .dato {
-        color: $blanco;
-        &:hover {
-            color: $gris;
+    .pagos {
+        .creditos {
+            width: 8wh;
+            height: 8vh;
+            margin: 0px 15px;
+            padding: 5px 5px;
+            border-radius: 3%;
         }
     }
 }

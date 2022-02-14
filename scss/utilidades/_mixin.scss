@@ -6,6 +6,15 @@
     width: 8wh;
     height: 8vh;
 }
+@mixin titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $grande;
+    margin-top: 0px;
+    padding: 0px;
+    color: $dark;
+}
 /* mixin like a pro */
 @mixin FontStyle($verde, $tamanioLetra, $dark) {
     color:$verde;
@@ -14,4 +23,14 @@
         color: $dark;
     }
 }
-
+@mixin foot($blanco, $tam, $gris){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: $tam;
+    color: $blanco;
+    &:hover {
+        color: $gris;
+        text-decoration: underline;
+    }
+}
