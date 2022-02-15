@@ -15,6 +15,19 @@ main .principal .colors h5 {
   text-transform: uppercase; }
 
 /* mixin like a pro */
+/* bucle */
+.class {
+  color: #169200;
+  font-weight: bold; }
+
+.class {
+  color: #c75b1c;
+  font-weight: bold; }
+
+.class {
+  color: #1c54d6;
+  font-weight: bold; }
+
 /* SECCIONES */
 .header {
   background: #315fa8;

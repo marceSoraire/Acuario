@@ -1,0 +1,13 @@
+$textoResaltado:(
+    inite: #169200,
+    center: #c75b1c,
+    end: #1c54d6,
+);
+/* bucle */
+
+@each $class, $col in $textoResaltado {
+    .#{class}{
+        color:$col;
+        font-weight: bold;
+    }
+}
