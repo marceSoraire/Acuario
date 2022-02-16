@@ -8,7 +8,22 @@
     }
     
 }
-
+// /****** 425 ***********/
+// @media ( max-width:425px) {
+//     .principal {
+//         .agrandar {
+//             margin: 1rem 0px;
+//             width: 100%;
+//         }
+//         .div-al {
+//             display: flex;
+//             .carr-al {
+//                 @include contenedor;
+//             }
+//         }
+        
+//     }
+// }
 /******* peces ********/
 .separacion {
     margin: 1rem 7rem;
@@ -30,4 +45,48 @@
 }
 .card-text {
     padding: 0px 2rem;
+}
+/********** 425px **********/
+@media (max-width: 425px) {
+    .separacion {
+        margin: 1rem 0;
+        .card-title {
+            @include titulo;
+        }
+        .img-full {
+            height: 70vh !important;
+        }
+        .sep-in {
+            padding: 1rem;
+            .card-title {
+                @include titulo;
+            }
+        }
+        .carr-al {
+            @include contenedor;
+        }
+    }
+    .card-text {
+        padding: 0px 2rem;
+    }
+   
+}
+
+/******* peceras ************/
+h1 {
+    text-align: center !important;
+    color: $dark !important;
+}
+.promos {
+    .tm-img-prom {
+        height: 100vh !important;
+    }
+    .text-img {
+        background: $gris;
+        font-size: $chico;
+        color: $blanco;
+    }
+    .carr-al {
+        @include contenedor;
+    }
 }

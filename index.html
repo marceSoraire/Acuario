@@ -13,20 +13,15 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="shortcut icon" href="./img/img02.jpg" type="image/x-icon">
-         <!-- practica animaciones -->
-    <link 
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-   />
-    <!-- fin animaciones -->
+    <!-- animaciones -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Pequeño Ser</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-md nav-foot header">
         <div class="container">
-            <!-- agrgado de class -->
-            <img src="./img/img02.jpg" class=" img-fluid logo animate_animated animate_flip">
-            <!-- fin class -->
+            <img src="./img/img02.jpg" class=" img-fluid logo animate__animated animate__flip">
             <a class="navbar-brand name" href="./index.html">Pequeño Ser</a>
             <img src="./img/nav-menu.jpg" class="navbar-toggler menuBurger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,7 +36,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="./pages/alimentos.html">Alimentos</a></li>
-                            <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                            <li><a class="dropdown-item" href="./pages/accesorios.html">Accesorios</a></li>
                             <li><a class="dropdown-item" href="./pages/peceras.html">Peceras</a></li>
                         </ul>
                     </li>
@@ -106,11 +101,6 @@
               <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <nav class="navbar sticky-top wsp">
-            <div class="container-fluid justify-content-end">
-                <a href="#"><i class="fab fa-whatsapp wsp"></i></a>
-            </div>
-        </nav>
         <div class="text">
             <h1 class="titulo">Nosotros</h1>
             <p>
@@ -121,17 +111,19 @@
             </p>
         </div>
         <div class="row row-cols-1 row-cols-md-2 g-4 principal">
-            <div class="col">
-                <div class="card agrandar">
-                    <img src="./img/022.jpg" class="card-img-top" alt="...">
-                    <div class="card-body colors">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div>
+                <div class="col">
+                    <div class="card agrandar" >
+                        <img src="./img/022.jpg" class="card-img-top" alt="...">
+                        <div class="card-body colors">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col agrandar">
-                <div class="card">
+            <div class="col">
+                <div class="card agrandar">
                     <img src="./img/lagarto.jpg" class="card-img-top" alt="...">
                     <div class="card-body colors">
                         <h5 class="card-title">Card title</h5>
@@ -153,11 +145,16 @@
                     <img src="./img/011.jpg" class="card-img-top" alt="...">
                     <div class="card-body colors">
                         <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
                     </div>
                 </div>
             </div>
         </div>
+        <nav class="navbar sticky-top wsp">
+            <div class="container-fluid justify-content-end">
+                <a href="#"><i class="fab fa-whatsapp wsp"></i></a>
+            </div>
+        </nav>
     </main>
     <footer>
         <div class="date">
