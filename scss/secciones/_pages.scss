@@ -1,4 +1,4 @@
-/****** Alimentos ********/
+/****** Alimentos / Accesorios ********/
 .principal {
     .div-al {
         display: flex;
@@ -8,22 +8,6 @@
     }
     
 }
-// /****** 425 ***********/
-// @media ( max-width:425px) {
-//     .principal {
-//         .agrandar {
-//             margin: 1rem 0px;
-//             width: 100%;
-//         }
-//         .div-al {
-//             display: flex;
-//             .carr-al {
-//                 @include contenedor;
-//             }
-//         }
-        
-//     }
-// }
 /******* peces ********/
 .separacion {
     margin: 1rem 7rem;
