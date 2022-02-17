@@ -5,8 +5,8 @@ $textoResaltado:(
 );
 /* bucle */
 
-@each $class, $col in $textoResaltado {
-    .#{class}{
+@each $frase, $col in $textoResaltado {
+    .#{frase}{
         color:$col;
         font-weight: bold;
     }

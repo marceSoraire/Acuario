@@ -18,7 +18,7 @@
     padding: 0px;
     color: $dark;
 }
-/* mixin like a pro */
+/* mixin like a pro: contiene hover */
 @mixin FontStyle($verde, $tamanioLetra, $dark) {
     color:$verde;
     font-size: $tamanioLetra;
