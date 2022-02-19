@@ -45,7 +45,7 @@
 
 main {
     .imgPrincipal {
-        margin: 0px auto;
+        margin: 0 auto;
         justify-content: center;
         text-align: center;
         width: 100%;
@@ -136,7 +136,7 @@ footer {
         .nav-div {
             color: $blanco !important;
             font-size: $md;
-            margin: 0 20px;
+            margin: 0 10px;
             &:hover {
                 color: $gris !important;
             }
@@ -167,13 +167,11 @@ footer {
             color: $dark;
             font-size: $chico;
             padding: 20px;       
-            margin: 0px 6rem;
+            margin: 1rem 6rem;
             height: 30vh;
             border: 1px solid $gris;
         }
         .principal {
-            display: block;
-            align-items: center;
             margin: 3rem auto;
             width: 70%;
             height: 10%;

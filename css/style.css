@@ -11,20 +11,20 @@ main .text {
 
 main .principal .colors h5 {
   font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica;
   text-transform: uppercase; }
 
-/* mixin like a pro */
+/* mixin like a pro: contiene hover */
 /* bucle */
-.class {
+.frase {
   color: #169200;
   font-weight: bold; }
 
-.class {
+.frase {
   color: #c75b1c;
   font-weight: bold; }
 
-.class {
+.frase {
   color: #1c54d6;
   font-weight: bold; }
 
@@ -66,7 +66,7 @@ main .principal .colors h5 {
   height: 3vh; }
 
 main .imgPrincipal {
-  margin: 0px auto;
+  margin: 0 auto;
   justify-content: center;
   text-align: center;
   width: 100%;
@@ -145,7 +145,7 @@ footer {
     .header .nav-div {
       color: white !important;
       font-size: 16px;
-      margin: 0 20px; }
+      margin: 0 10px; }
       .header .nav-div:hover {
         color: #dfdada !important; }
   .img-min {
@@ -169,12 +169,10 @@ footer {
     color: #18202d;
     font-size: 22px;
     padding: 20px;
-    margin: 0px 6rem;
+    margin: 1rem 6rem;
     height: 30vh;
     border: 1px solid #dfdada; }
   main .principal {
-    display: block;
-    align-items: center;
     margin: 3rem auto;
     width: 70%;
     height: 10%; }
